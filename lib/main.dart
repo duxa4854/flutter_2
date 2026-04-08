@@ -8,11 +8,12 @@ void main() {
         body: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              begin: Alignment.topCenter,
               colors: [
                 Colors.yellow,
                 Colors.blue,
               ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
             ),
           ),
           child: Center(
